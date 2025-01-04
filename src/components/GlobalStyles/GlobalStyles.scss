@@ -6,7 +6,11 @@
 
 // Common
 :root {
-    --primary-color:#fe2c55;
+    --primary-color: #fe2c55;
+}
+
+* {
+    box-sizing: border-box;
 }
 
 html {
