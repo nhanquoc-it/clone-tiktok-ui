@@ -1,17 +1,15 @@
-import Header from '~/components/Layout/components/Header/Header.jsx';
-import Sidebar from './Sidebar/Sidebar.jsx';
+import Header from '~/components/Layouts/components/Header/Header.jsx';
 import React from 'react';
 
-const DefaultLayout = ({ children }) => {
+const HeaderOnly = ({ children }) => {
     return (
         <div>
             <Header />
             <div className="container">
-                <Sidebar />
                 <div className="content">{children}</div>
             </div>
         </div>
     );
 };
 
-export default DefaultLayout;
+export default HeaderOnly;
