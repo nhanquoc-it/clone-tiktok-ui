@@ -86,7 +86,6 @@ const Header = () => {
                 <div className={cx('action')}>
                     <Button text>Upload</Button>
                     <Button primary>Log in</Button>
-
                     {/* Menu */}
                     <Menu items={MENU_ITEMS}>
                         <button className={cx('more-btn')}>
