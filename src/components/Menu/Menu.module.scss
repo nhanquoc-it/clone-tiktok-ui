@@ -1,0 +1,19 @@
+.menu-list {
+    width: 224px;
+
+    .menu-item {
+        width: 100%;
+        margin-left: 0;
+        justify-content: start;
+        border-radius: 0;
+        padding: 11px 16px;
+
+        &:hover {
+            background-color: rgba(22, 24, 35, 0.03);
+        }
+    }
+}
+
+.menu-wrapper {
+    padding-bottom: 8px;
+}
